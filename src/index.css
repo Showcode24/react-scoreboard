@@ -7,55 +7,50 @@
   padding: 20px;
   font-family: 'DM Serif Text', serif;
   display: grid;
-  grid-template-columns: auto 1fr; 
-  align-items: start; 
-  gap: 20px; 
+  grid-template-columns: auto 1fr;
+  align-items: start;
+  gap: 20px;
 }
 
 .olymp_image {
-  width: 50%; 
-  height: auto; 
-  justify-self: end; 
+  width: 50%;
+  height: auto;
+  justify-self: end;
   grid-row: 1;
   margin-right: 20px;
-  }
+}
 
 h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 3.9em;
-  color: transparent; 
-  margin: 0; 
+  color: #f64668;
+  margin: 0;
   margin-left: 200px;
-  margin-bottom: 0; 
-  background-image: linear-gradient(90deg, #eebd89, #d13abd); 
-  -webkit-background-clip: text; 
-  background-clip: text; 
-  grid-column: 1; 
+  margin-bottom: 0;
+  grid-column: 1;
   grid-row: 1;
   margin-top: 10%;
 }
 
+
 .home span {
-  color: #888888;
+  color: #888;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-left: 200px;
   margin-top: 17%;
   font-weight: 350;
   letter-spacing: 0.3px;
   line-height: 25px;
-  grid-column: 1 / span 2; 
-  grid-row: 2; 
+  grid-column: 1 / span 2;
+  grid-row: 2;
   position: absolute;
 }
 
-
-
-
 .navbar {
-  background-color: #fff; 
-  color: #333; 
+  background-color: #fff;
+  color: #333;
   padding: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .logo_icon {
@@ -63,10 +58,10 @@ h1 {
   height: auto;
   margin-left: 200px;
 }
+
 .links {
   display: flex;
   justify-content: space-around;
-  
 }
 
 .links ul {
@@ -76,34 +71,34 @@ h1 {
 
 .links-text {
   text-decoration: none;
-  color: #626262; 
+  color: #626262;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 14px;
   font-weight: 400;
   margin: 0 50px;
   transition: color 0.3s ease-in-out;
-  letter-spacing: 1px; 
+  letter-spacing: 1px;
 }
 
 .links-text:hover {
-  color: #ffd700; 
+  color: #ffd700;
   font-weight: 700;
-  transition: color 0.3s ease-in-out;;
+  transition: color 0.3s ease-in-out;
 }
-
 
 .addscore {
   text-align: center;
   padding: 20px;
   font-family: 'DM Serif Text', serif;
 }
+
 /* Form layout */
 .form {
-  max-width: 400px; 
+  max-width: 400px;
   height: 330px;
-   margin: 5% auto; 
+  margin: 5% auto;
   padding: 20px;
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
@@ -112,7 +107,7 @@ h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 15px;
   font-weight: 400;
-  margin: 40px auto 40px auto; 
+  margin: 40px auto 40px auto;
   letter-spacing: 4px;
 }
 
@@ -122,8 +117,8 @@ label {
 }
 
 input {
-  width: calc(100% - 20px); 
-  padding: 10px; 
+  width: calc(100% - 20px);
+  padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -132,7 +127,7 @@ input {
 
 input:focus {
   outline: none;
-  border-color: #007bff; 
+  border-color: #007bff;
 }
 
 button {
@@ -147,7 +142,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3; 
+  background-color: #0056b3;
 }
 
 button:disabled {
@@ -156,10 +151,9 @@ button:disabled {
 }
 
 .error-message {
-  color: #ff0000; 
+  color: #f00;
   margin-top: 5px;
 }
-
 
 .recent {
   margin: 20px;
@@ -200,7 +194,3 @@ button:disabled {
 .tabular tr:hover {
   background-color: #ddd;
 }
-
-
-
-

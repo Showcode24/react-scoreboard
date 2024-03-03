@@ -10,18 +10,18 @@ const RecentScores = () => {
     // Fetch the recent scores from the API
     const fetchScores = () => {
       fetch(apiUrl)
-        .then(response => {
+        .then((response) => {
           if (!response.ok) {
             throw new Error('Network response was not ok');
           }
           return response.json();
         })
-        .then(data => {
+        .then((data) => {
           setScores(data.result);
-        })
-        .catch(error => {
-          console.error('Error fetching scores:', error);
         });
+      // .catch((error) => {
+      //   console.error('Error fetching scores:', error);
+      // });
     };
 
     fetchScores();
@@ -30,7 +30,7 @@ const RecentScores = () => {
   return (
     <div className="recent">
       <h2>Recent Scores</h2>
-      <table className='tabular'>
+      <table className="tabular">
         <thead>
           <tr>
             <th>Player Name</th>
@@ -38,7 +38,7 @@ const RecentScores = () => {
           </tr>
         </thead>
         <tbody>
-          {scores.map(score => (
+          {scores.map((score) => (
             <tr key={score.user}>
               <td>{score.user}</td>
               <td>{score.score}</td>
